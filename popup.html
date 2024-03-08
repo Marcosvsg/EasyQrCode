@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyQRCode</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="main-title">
+        <span>EasyQRCode</span>
+        <img src="/assets/svg/qrcode1.svg" alt="QrCode">
+    </div>
+    <div class="qr-form">
+        <input type="text" id="input-text" class="error-bar" placeholder="insira sua url ou texto">
+        <div id="error-message" class="error">
+            <img src="/assets/svg/error.svg" alt="error">
+            <span>Nope, insira uma url ou um texto!</span>
+        </div>
+        <button id="generate-button">Gerar QrCode</button>
+        <div id="qr-code-container"></div>
+        <button id="button-qr-code-container" class="download-button">Download</button>
+    </div>
+</body>
+
+<footer #footer-container>
+    <span>criado por Marcos Vinícius 2024 ©</span>
+</footer>
+<script src="/scripts/main.js" defer></script>
+</html>

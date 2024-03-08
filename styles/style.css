@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Josefin Sans;
+  src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-title {
+    margin-top: 17px;
+  }
+
+  .main-title span{
+    font-family: Josefin Sans;
+    font-size: 35px;
+    font-weight: 700;
+    color: #609096;
+  }
+
+  .main-title img {
+    margin-left: 7px;
+    width: 30px;
+  }
+  
+  .qr-form {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  #input-text {
+    width: 300px;
+    height: 28px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: #8b9fa0 2px solid;
+  }
+
+  #input-text:hover {
+    background-color: #ececec;
+  }
+
+  #input-text::placeholder {
+    font-family: Arial, sans sans-serif;
+    text-align: center;
+    color: #cfd8d9;
+  }
+
+  
+  #generate-button {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #609096;
+    color: #ffffff;
+
+    width: 300px;
+    border-radius: 20px;
+    border: #8b9fa0 1px solid;
+    cursor: pointer;
+  }
+  
+  #generate-button:hover {
+    width: 300px;
+    border-radius: 20px;
+    background-color: #5dbeca;
+    border: #7bb3ba 1px solid;
+  }
+  
+  #qr-code-container {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  #qr-code-container img {
+    border: #609096 2px solid;
+    padding: 5px;
+  }
+
+  #button-qr-code-container {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #609096;
+    color: #ffffff;
+
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .download-button {
+    display: none;
+  }
+
+
+  #error-message {
+    display: flexbox;
+  }
+
+  #error-message span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #e3665d;
+  }
+
+  #error-message img{
+    width: 17px;
+    height: auto;
+    color: #cc8b86;
+  }
+
+  .error {
+    display: none;
+  }
+
+  #footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
